@@ -19,7 +19,57 @@
   <link href="css/sb-admin.css" rel="stylesheet">
   <!--  styles for popup -->
   <link href="css/popup.css" rel="stylesheet">
+<!-- จัดการรายชื่อครู -->
+<style type="text/css">
+    table,th,td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+    .content-wrapper {
+      background-image: url('img/Page6.jpg');
+    }
+    body {
+      background-color: #fff;
+    }
 
+    .wrapper {	
+	margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+}
+
+/* จัดการตารางเข้าเวรครู */
+.form-signin-to {
+    max-width: 650px;
+    padding: 15px 35px 45px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.form-control-name {
+    width: 49%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+  </style>
 </head>
 
 <?php

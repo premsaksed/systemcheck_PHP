@@ -107,7 +107,7 @@ $result = $con->query($sql);
        <div class="form-group">
        <label>ชื่อ</label>
        <input name= "Name" type="text" value="<?php echo $row['Name']; ?>"   required/>
-       <input name= "ID" type="text" value="<?php echo $row['ID']; ?>"   required/>
+       <input name= "ID" type="hidden" value="<?php echo $row['ID']; ?>"   required/>
        </div>
 
        <div class="form-group">
@@ -159,7 +159,7 @@ $result = $con->query($sql);
 
        <label>&nbsp;หมายเหตุ&nbsp;</label>
        <input class="form-control" type="text" name="notation" placeholder="หมายเหตุ" value="<?php echo $row['notation']; ?>" required>
-       <input class="form-control" type="text" name="Teacher_id" placeholder="Teacher_id" value="<?php echo $row['Teacher_id']; ?>" required>
+       <input class="form-control" type="hidden" name="Teacher_id" placeholder="Teacher_id" value="<?php echo $row['Teacher_id']; ?>" required>
        
 
        </div>
